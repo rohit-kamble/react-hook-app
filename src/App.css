@@ -1,40 +1,78 @@
-/* .App {
-  text-align: center;
-  background-image: url('./weather-icon-gif-7.jpg');
+.dropdown-menu {
+  max-height: 400px;
+  overflow: auto;
+}
+@keyframes mymove {
+  from {width: 10px;}
+  to {width: 200px;}
+}
+.cols {
+  background-color: red;
+  padding: 30px 0;
+  /* margin: 10px; */
+  /* transition: all 3s; */
+  /* position: relative; */
+  transition: all .0.5s linear;
+}
+.auto-cotainer {
+  background-color: red;
+  /* padding: 30px; */
+}
+.auto-child-cotainer {
+  background-color: green;
+  margin-top: 20px;
+  box-shadow: 10px 10px 8px #000000;
+}
+.button-pad {
+  background-color: hotpink;
+  box-shadow: 10px 10px 8px #000000;
+  padding: 10% 40%;
+  min-width: 100%;
+  margin-top: 20px;
+}
+.button-pad:hover {
+  background-color: hotpink;
+}
+.button-pad:active {
+  box-shadow: 10px 10px 8px #000000;
+}
+.button-pad:focus {
+  box-shadow: 10px 10px 8px #000000;
+}
+.button-label {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.buttton-auto-color {
+  background-color: #33a523 !important;
+}
+.buttton-manual-color {
+  background-color: #33a523 !important;
+}
+#root {
+  background-image: url('./weather-change.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.reactloadder {
+  width: auto;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 30px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.rows {
+  box-shadow: 10px 10px 8px #000000;
+  /* padding: 10% 40%; */
+  margin: 30px 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dropdown-toggle {
+  min-width: 200px;
+  position: relative;
 }
-
-.App-link {
-  color: #61dafb;
+.dropdown-toggle:after {
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  right: 15px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
