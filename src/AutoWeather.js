@@ -21,7 +21,7 @@ export default function AutoWeather(props) {
                 const {cityname, districtVal, stateVal} = props;
                 const liveLocation = `${position.coords.latitude},${position.coords.longitude}`;
                 const val = cityname ? `${cityname},${districtVal},${stateVal},india`: liveLocation;
-                 fetch(`https://api.weatherstack.com/current?access_key=ddaf735decc7e23802202dc2210ba9a8&query=${val}`)
+                 fetch(`http://api.weatherstack.com/current?access_key=ddaf735decc7e23802202dc2210ba9a8&query=${val}`)
                  .then(res=> res.json())
                  .then(res=>setAutoData(res))
               });
