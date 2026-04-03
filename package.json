@@ -15,7 +15,7 @@
     "react-geocode": "^0.2.1",
     "react-gif-loader": "^0.6.0",
     "react-hook-google-maps": "0.0.3",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "reactstrap": "^8.5.1"
   },
   "scripts": {
